@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Page d'authentification - ProxiBanque SI</title>
+        <title>Page d'authentification - erreur</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
@@ -29,40 +29,39 @@
                             <h1><strong>Page de connexion</strong></h1>
                             <div class="description">
                                 <center><img class="img-responsive" src="assets/img/ProxiBanque.jpg" alt="logo" style="width:40%"><center><br>
-                                        <p>
-                                        </p>
-                            </div>
-                        </div>
-                    </div>
-                <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3 form-box">
-                        <div class="form-top">
-                            <div class="form-top-left">
-                                <p>Merci de rentrez votre identifiant et votre mot de passe pour accéder aux services de ProxiBanque</p>
-                            </div>
-                            <div class="form-top-right">
-                                <i class="fa fa-lock"></i>
-                            </div>
+                                        <h3>Echec de l'authentification Conseiller. Essayer à nouveau</h3>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 col-sm-offset-3 form-box">
+                                                <div class="form-top">
+                                                    <div class="form-top-left">
+                                                        <p>Merci de rentrez votre identifiant et votre mot de passe pour accéder aux services de ProxiBanque</p>
+                                                    </div>
+                                                    <div class="form-top-right">
+                                                        <i class="fa fa-lock"></i>
+                                                    </div>
                                                 </div>
                                                 <div class="form-bottom">
-                                                    <form action="ServletLogin" method="post" class="login-form">
+                                                    <form role="form" action="MaServlet1_Login" method="post" class="login-form">
                                                         <div class="form-group">
                                                             <label class="sr-only" for="form-username">Identifiant</label>
-                                                            <input type="text" name="loginuser" placeholder="Identifiant..." class="form-username form-control" id="loginusere">
+                                                            <input type="text" name="loginuser"  placeholder="Identifiant..." class="form-username form-control" id="loginuser" >
                                                         </div>
                                                         <div class="form-group">
                                                             <label class="sr-only" for="form-password">Mot de passe</label>
-                                                            <input type="password" name="mdpuser" placeholder="Mot de passe..." class="form-password form-control" id="mdpuser">
+                                                            <input type="password" name="mdpuser"placeholder="Mot de passe..." class="form-password form-control" id="mdpuser">
                                                         </div>
                                                         <button type="submit" class="btn">Soumettre</button>
                                                     </form>
                                                 </div>
                                             </div>
-                    </div>
-                </div>
 
-            </div>
-        </div>
+                                        </div>
+                                        </div>
+
+                                        </div>
 
 
                                         <!-- Javascript -->
@@ -71,6 +70,9 @@
                                         <script src="assets/js/jquery.backstretch.min.js"></script>
                                         <script src="assets/js/scripts.js"></script>
 
+                                        <!--[if lt IE 10]>
+                                            <script src="assets/js/placeholder.js"></script>
+                                        <![endif]-->
 
                                         </body>
 

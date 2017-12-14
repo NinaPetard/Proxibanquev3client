@@ -43,7 +43,7 @@
                 </div>
                     <div class="form-bottom">
     			  
-			        <form action="MaServlet2bis" method="post" class="login-form">
+			        <form action="ServletValidModif" method="post" class="login-form">
 			       
 				
 						<div class="form-group">

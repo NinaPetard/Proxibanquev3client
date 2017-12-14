@@ -62,7 +62,7 @@
 									</thead>
 
 									<tbody>
-										<form class="form-inline" action="MaServlet4bis" method="post" >
+										<form class="form-inline" action="ServletVirement" method="post" >
 										<c:forEach items="${ListeTypeCompte}" var="item">
 									<input type="text" class="form-control1"  value="${item.idclient}" name="idclient" style=visibility:hidden>
 										</c:forEach>

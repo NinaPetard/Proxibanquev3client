@@ -22,9 +22,9 @@ import com.objis.proxibanque.service.ServiceConseiller;
  * Servlet implementation class MaServlet
  */
 /**
- * @author KR Cette Servlet regroupe les méthodes de traitement, liés à la gestion des virements.
- * Elle permet de reçevoir une requête client lié à l'authentification, effectue le traitement
- * et renvoie le résultat.
+ * @author KR Cette Servlet regroupe les mï¿½thodes de traitement, liï¿½s ï¿½ la gestion des virements.
+ * Elle permet de reï¿½evoir une requï¿½te client liï¿½ ï¿½ l'authentification, effectue le traitement
+ * et renvoie le rï¿½sultat.
  *
  */
 @WebServlet("/ServletChoixCompteVirement")
@@ -57,10 +57,10 @@ public class ServletChoixCompteVirement extends HttpServlet {
 	
 
 	/**
-	 * Méthode permettant le traitement de la requête HTTP pour la gestion du virement choisit.
+	 * Mï¿½thode permettant le traitement de la requï¿½te HTTP pour la gestion du virement choisit.
 	 * Elle renvoit vers la page permettant d'effectuer le virement.
-	 * @param request Objet de type HttpServletRequest contenant la requête HTTP et donne accès à toutes ses informations
-	 * @param response Objet de type HttpServletResponse qui initialise la réponse HTTP et qui sera renvoyée au client
+	 * @param request Objet de type HttpServletRequest contenant la requï¿½te HTTP et donne accï¿½s ï¿½ toutes ses informations
+	 * @param response Objet de type HttpServletResponse qui initialise la rï¿½ponse HTTP et qui sera renvoyï¿½e au client
 	 * @throws ServletException
 	 * @throws IOException
 	 */
@@ -76,7 +76,7 @@ public class ServletChoixCompteVirement extends HttpServlet {
 		Client client3 = new Client(id_client);
 		HttpSession maSession = request.getSession();
 		maSession.setAttribute("ListeTypeCompte", service_compte.AffichageListeCompte(client3));
-		dispatcher = request.getRequestDispatcher("ChoixClientVirement.jsp");
+		dispatcher = request.getRequestDispatcher("PageVirement.jsp");
 		
 		dispatcher.forward(request, response);
 		
