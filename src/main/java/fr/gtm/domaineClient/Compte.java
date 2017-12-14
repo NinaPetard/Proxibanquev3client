@@ -12,11 +12,13 @@ import java.util.List;
 /**
  *
  * @author Robinson
+ * Codage de la classe Compte de l'application Client
  */
 
 public class Compte {
 
 
+    //Attributs
     private Long idcompte;   
     private BigDecimal solde;
     private String typec;
@@ -26,6 +28,7 @@ public class Compte {
     private List<Virement> virementList;
     private List<Virement> virementList1;
 
+    //Constructeur
     public Compte() {
     }
 
@@ -41,6 +44,7 @@ public class Compte {
         this.decouvert = decouvert;
     }
 
+    //Getters et setters
     public Long getIdcompte() {
         return idcompte;
     }

@@ -12,11 +12,12 @@ import java.util.List;
 /**
  *
  * @author Robinson
+ * Codage de la classe Client dans l'application Client
  */
 
 public class Client {
 
-
+    //Attributs
     private Long idclient;
     private String nom;
     private String prenom;
@@ -27,7 +28,7 @@ public class Client {
     private List<Compte> compteList;
     private Conseiller idconseiller;
 
-    
+    //Constructeur
     public Client() {
     }
 
@@ -45,6 +46,7 @@ public class Client {
         this.telephone = telephone;
     }
 
+    //Getters et setters
     public Long getIdclient() {
         return idclient;
     }

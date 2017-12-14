@@ -12,9 +12,11 @@ import java.util.List;
 /**
  *
  * @author Robinson
+ * Codage de la classe Conseiller de l'application Client
  */
 public class Conseiller {
 	
+    //Attributs
     private Long idconseiller;
     private String userid;
     private String nom;
@@ -22,6 +24,7 @@ public class Conseiller {
     private String password;
     private List<Client> clientList;
 
+    //Constructeur
     public Conseiller() {
     }
 
@@ -36,6 +39,7 @@ public class Conseiller {
         this.password = password;
     }
 
+    //Getters et setters
     public Long getIdconseiller() {
         return idconseiller;
     }

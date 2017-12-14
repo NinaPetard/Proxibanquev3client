@@ -13,17 +13,19 @@ import java.util.Date;
 /**
  *
  * @author Robinson
+ * Codage de la classe virement de l'application client
  */
 
 public class Virement  {
 
-    
+    //Attributs
     private Long idvirement;
     private BigInteger montant;
     private Date datev;
     private Compte idcomptedebit;
     private Compte idcomptecredit;
 
+    //Constructeur
     public Virement() {
     }
 
@@ -31,6 +33,7 @@ public class Virement  {
         this.idvirement = idvirement;
     }
 
+    //Getters et setters
     public Long getIdvirement() {
         return idvirement;
     }
