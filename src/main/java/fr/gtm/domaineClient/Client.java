@@ -11,8 +11,10 @@ import java.util.List;
 
 /**
  *
- * @author Robinson
- * Codage de la classe Client dans l'application Client
+ * @author Nina et Robinson
+ * Codage de la classe Client dans l'application Client qui recupère les JSON envoyés depuis l'application serveur.
+ * Cette classe possède comme attributs: un idclient, un nom, un prenom, une adresse, 
+ * un code postal, une ville ainsi qu'un telephone
  */
 
 public class Client {

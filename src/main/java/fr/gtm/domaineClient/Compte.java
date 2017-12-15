@@ -11,8 +11,11 @@ import java.util.List;
 
 /**
  *
- * @author Robinson
- * Codage de la classe Compte de l'application Client
+ * @author Nina et Robinson
+ * Codage de la classe Compte de l'application Client qui recupère les JSON envoyés depuis l'application serveur.
+ * Cette classe possède comme attributs un identifiant de numero de compte, un solde,
+ * un type de compte(epargne ou courant), un taux d'interet (pour le compte epargne),
+ * un decouvert autorise (pour le compte courant) et un identifiant d'un client
  */
 
 public class Compte {

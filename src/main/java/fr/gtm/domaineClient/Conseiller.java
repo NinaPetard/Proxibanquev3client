@@ -11,8 +11,11 @@ import java.util.List;
 
 /**
  *
- * @author Robinson
- * Codage de la classe Conseiller de l'application Client
+ * @author Nina et Robinson
+ * Codage de la classe Conseiller de l'application Client qui recupère les JSON envoyés depuis l'application serveur.
+ * La classe conseiller possède pour attribut un numero de conseiller(idconseiller, un identifiant (userid), un nom, un prenom,
+ * un password et une liste de clients associés.
+ * 
  */
 public class Conseiller {
 	

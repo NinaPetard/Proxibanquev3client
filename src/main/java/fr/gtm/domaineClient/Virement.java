@@ -12,8 +12,11 @@ import java.util.Date;
 
 /**
  *
- * @author Robinson
- * Codage de la classe virement de l'application client
+ * @author Nina et Robinson
+ * Codage de la classe Virement de l'application Client qui recupère les JSON envoyés depuis l'application serveur.
+ * La classe Virement possède pour attribut un identifiant de virement (idvirement), un montant, une date de virement(datev),
+ * un compte debiteur (idcomptedebit) et un compte créditeur(idcomptecredit).
+ * 
  */
 
 public class Virement  {
